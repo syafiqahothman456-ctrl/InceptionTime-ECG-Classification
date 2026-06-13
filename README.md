@@ -1,2 +1,3 @@
 # InceptionTime-ECG-Classification
-Machine Learning InceptionTime for ECG Arrhythmia classification
+
+This project uses InceptionTime module from Aeon for ECG Arrhythmia Classification. It is executed on Google Colab and the dataset used is the MIT-BIT Arrhythmia Database v1.0.0. The dataset needs to be uploaded to the Google Drive as it will be loaded from there for this source file. The data split will be roughly 60% training/15% validation/25% testing, though it will be split according to the record ids. The InceptionTime module will be trained for 20 epochs and be evaluated upon its accuracy, precision, F1 score, confusion matrix and ROC curve. Happy learning >.<
